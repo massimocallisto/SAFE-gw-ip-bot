@@ -71,7 +71,7 @@ def handle(msg):
         bot.sendMessage(chat_id, build_message(ip_list))
         
 if __name__ == "__main__":
-    bot = telepot.Bot('6529810186:AAFIHZ_IPzRpeK1e6bfEw167W3ERr6QL8YY')
+    bot = telepot.Bot('TOKEN')
 
     bot.message_loop(handle)
     print('I am listening...')
